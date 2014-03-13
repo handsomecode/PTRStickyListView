@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <is.handsome.ptr_sticky_listview.views.PTRListView
+            android:id="@+id/v_sticky_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="0dp"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"/>
+
+</RelativeLayout>
